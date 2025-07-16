@@ -46,10 +46,13 @@ animation-delay: .4s;
 
 .navbar a {
     font-size: 18px;
-    color: #08010f;
+     display: flex;
+     align-items: center;
+     padding: 1rem 2rem;
+    color:rgba(231, 227, 226);
     text-decoration: none;
     font-weight: 500;
-    margin-left: 35px;
+    margin-left: 20px;
     transition: .3s;
 }
 
@@ -60,8 +63,8 @@ animation-delay: .4s;
 
 .home {
     height: 100vh;
-    background: url("aws.jpg") no-repeat;
-    background-size: 600px;
+    background: url("Img1.jpg") no-repeat;
+    background-size: 700px;
     background-position: right;
     display: flex;
     align-items: center;
@@ -260,8 +263,8 @@ height: 100%;
 .home-imgHover {
     position: absolute;
     top: 0;
-    right: 30px;
-    width: 700px;
+    right: 0;
+    width: 600px;
     height: 100%;
     background: transparent;
     transition: 3s;
